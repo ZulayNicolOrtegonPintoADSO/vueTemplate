@@ -1,7 +1,7 @@
 export default{
     name: "my-titulo",
     template: /*html*/`
-        <h1 v-text="txt"> </h1>
+        <h1 class="bg-info" v-text="txt"> </h1>
     `,
 
     data(){
