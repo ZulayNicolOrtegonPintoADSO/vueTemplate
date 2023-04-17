@@ -1,12 +1,9 @@
 export default{
-    name: "my-titulo",
+    name: "img-derecha",
     template: /*html*/`
-        <h1 class="bg-info" v-text="txt"> </h1>
+        <img  :src="config.img" :class="one" >
     `,
-
-    data(){
-        return{
-            txt: "El trabajo se llama: vueTemplate"
-        }
-    }
+    props:{
+        config: Object
+    },
 }
